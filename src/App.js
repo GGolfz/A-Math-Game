@@ -57,9 +57,9 @@ function App() {
   };
   const getBonusText = (bonus) => {
     let b = bonus.split("_");
-    if(b[0] == "TRIPLE") {
+    if(b[0] === "TRIPLE") {
       b[2] = "3X"
-    } else if(b[0] == "DOUBLE"){
+    } else if(b[0] === "DOUBLE"){
       b[2] = "2X"
     }
     return <div style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center'}}>

@@ -251,4 +251,151 @@ const doublePiece = [
   },
 ];
 
-export { tripleEquation, triplePiece, doubleEquation, doublePiece };
+const pieces = [
+  {
+    name: "0",
+    amount: 5,
+    point: 1,
+  },
+  {
+    name: "1",
+    amount: 6,
+    point: 1,
+  },
+  {
+    name: "2",
+    amount: 6,
+    point: 1,
+  },
+  {
+    name: "3",
+    amount: 5,
+    point: 1,
+  },
+  {
+    name: "4",
+    amount: 5,
+    point: 2,
+  },
+  {
+    name: "5",
+    amount: 4,
+    point: 2,
+  },
+  {
+    name: "6",
+    amount: 4,
+    point: 2,
+  },
+  {
+    name: "7",
+    amount: 4,
+    point: 2,
+  },
+  {
+    name: "8",
+    amount: 4,
+    point: 2,
+  },
+  {
+    name: "9",
+    amount: 4,
+    point: 2,
+  },
+  {
+    name: "10",
+    amount: 2,
+    point: 3,
+  },
+  {
+    name: "11",
+    amount: 1,
+    point: 4,
+  },
+  {
+    name: "12",
+    amount: 2,
+    point: 3,
+  },
+  {
+    name: "13",
+    amount: 1,
+    point: 6,
+  },
+  {
+    name: "14",
+    amount: 1,
+    point: 4,
+  },
+  {
+    name: "15",
+    amount: 1,
+    point: 4,
+  },
+  {
+    name: "16",
+    amount: 1,
+    point: 4,
+  },
+  {
+    name: "17",
+    amount: 1,
+    point: 6,
+  },
+  {
+    name: "18",
+    amount: 1,
+    point: 4,
+  },
+  {
+    name: "19",
+    amount: 1,
+    point: 7,
+  },
+  {
+    name: "20",
+    amount: 1,
+    point: 5,
+  },
+  {
+    name: "+",
+    amount: 4,
+    point: 2,
+  },
+  {
+    name: "-",
+    amount: 4,
+    point: 2,
+  },
+  {
+    name: "+/-",
+    amount: 5,
+    point: 1,
+  },
+  {
+    name: "×",
+    amount: 4,
+    point: 2,
+  },
+  {
+    name: "÷",
+    amount: 4,
+    point: 2,
+  },
+  {
+    name: "×/÷",
+    amount: 4,
+    point: 1,
+  },
+  {
+    name: "=",
+    amount: 11,
+    point: 1,
+  },
+  {
+    name: " ",
+    amount: 4,
+    point: 0,
+  },
+];
+export { tripleEquation, triplePiece, doubleEquation, doublePiece, pieces };
